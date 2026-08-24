@@ -216,3 +216,35 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# =========================
+# OBD-II Project
+# =========================
+
+# Banco de dados local
+telemetry.db
+*.sqlite
+*.sqlite3
+
+# Arquivos CSV gerados durante os testes
+*.csv
+
+# Logs do projeto
+*.log
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Arquivos gerados pelo simulador
+simulation_*.json
+
+# Configurações locais
+config.local.py
+
+# Arquivos de teste locais
+test_data/
+test_output/
+
+# Dados de diagnóstico
+diagnostics/
